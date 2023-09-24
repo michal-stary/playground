@@ -1,4 +1,6 @@
-def two_sum(xs, target_sum):
+from typing import List
+
+def two_sum(xs: List[int], target_sum: int) -> List[int]:
     """
     Return the two numbers in xs that sum to target_sum.
     
